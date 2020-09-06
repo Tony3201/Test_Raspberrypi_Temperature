@@ -1,5 +1,4 @@
-# Test_Raspberrypi_Temperature_By_Gcc
-
+# Test_Raspberrypi_Temperature_By_GCC
 1. make
 gcc temp.c -o temp
 
