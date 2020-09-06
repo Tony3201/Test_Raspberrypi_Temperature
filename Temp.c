@@ -1,4 +1,4 @@
-#For test RaspberryPi3b is working  # 
+#For test RaspberryPi3b was worked  # 
 #####################################
 #include <stdio.h>
 
