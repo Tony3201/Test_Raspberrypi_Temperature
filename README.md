@@ -1,13 +1,12 @@
 # Test_Raspberrypi_Temperature_By_GCC
-1. make
+  1. make
 gcc temp.c -o temp
 
-2.move to bin
+  2.move to bin
 sudo mv ./temp /usr/local/bin/
-
-3.command line test;done
+  
+  3.command line test;done
 user:~# temp
-
->> CPU Temp: 45.08°C
+>>CPU Temp: 45.08°C
 
 
