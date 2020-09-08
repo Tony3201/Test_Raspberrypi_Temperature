@@ -6,7 +6,9 @@
 
 2.move to bin
   
-  sudo mv ./temp /usr/local/bin/    #can choose " /bin/ "path for the other os,such as openwrt.
+  sudo mv ./temp /usr/local/bin/   
+  
+ ##can choose " /bin/ "path for the other os,such as openwrt.
   
 3.command line test;done
   
