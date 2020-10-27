@@ -1,5 +1,5 @@
-#For the test, Pi 3b was work.  # 
-#####################################
+#For the test, Pi ZW;Pi3b,Pi4,was work very well. # 
+###################################################
 #include <stdio.h>
 
 int main(int argc, char *argv[])
