@@ -13,6 +13,6 @@
 3.command line test;done
   
   user:~# temp
-  >>CPU Temp: 45.08°C
+  >>>CPU Temp: 45.08°C
 
 
