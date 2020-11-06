@@ -8,7 +8,7 @@
   
   sudo mv ./temp /usr/local/bin/   
   
- ##can choose " /usr/bin/ "path for the other os,such as openwrt.
+ ##some OS the path is  " /usr/bin/ "path for the other os,such as openwrt.
   
 3.command line test;done
   
