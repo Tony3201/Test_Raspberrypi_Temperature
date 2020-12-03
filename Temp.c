@@ -1,6 +1,6 @@
 #For the test, Pi ZW;Pi3b,Pi4,was work very well. #
 #########################################################################
-# Name: Test_Rpi_Temperature_By_GCC
+# Name: Test_Rpi_Temperature
 # Version: 0.2
 # Author: tony3201
 # Created Time: Oct 27,2020		
