@@ -1,0 +1,76 @@
+
+显示windows wifi 状态命令
+netsh wlan show interfaces
+
+windows自带网络数据包捕捉命令。
+Netsh trace start scenario = NetConnection capture = yes report = yes persistent = no maxsize = 1024 correlation = yes traceFile = C：\Logs\NetTrace.etl
+
+
+Netsh trace start scenario = NetConnection capture = yes report = yes persistent = no maxsize = 1024 correlation = yes traceFile = C：\NetTrace.etl
+
+C 是一门足够硬的语言，没有库支持意味着手工做很多工作。
+
+powershell获取本机IP地址的命令.txt
+Get-NetIPAddress -AddressFamily IPv4 | Select-Object IPAddress, InterfaceAlias
+
+-----------------
+pktmon-windows 10 Terminal 自带网络数据包嗅探器命令,支持pcapng
+pktmon
+pktmon -h
+
+pktmon comp help
+
+pktmon list    
+pktmon counters
+
+pktmon start --etw
+Stop monitoring:
+pktmon stop
+
+Convert the PktMon.etl file to a human-readable text format:
+pktmon format PktMon.etl -o converted.txt
+
+or
+pktmon PCAPNG PktMon.etl -o c:\ps\packetsniffer.pcapng
+---------------------------------------------------------------
+dig @1.1.1.1 bing.com +trace  #查询子域名 加追踪
+ipconfig /flushdns
+
+ipconfig /registerdns
+
+ipconfig /release
+
+ipconfig /renew
+
+NETSH winsock reset catalog
+
+NETSH int ipv4 reset reset.log
+
+NETSH int ipv6 reset reset.log
+
+Exit
+-------------------------------------------------------------
+powershell 获取内存大小 
+gwmi win32_physicalmemory | %{$sum =0} {$sum += $_.capacity } {write-host ($sum /1GB) "GB" }
+
+powershell 获取内存条详细信息
+Get-CimInstance -ClassName win32_physicalMemory |select-object Manufacturer,Capacity,Speed,PartNumber
+
+powershell 获取cpu详细信息
+Get-CimInstance -ClassName win32_Processor|select-object *
+
+powershell 获取电池详细信息
+Get-CimInstance -ClassName win32_battery |select-object *
+
+cmd获取windows10产品密钥的命令，这种方法通常适用于 OEM 激活的密钥，若系统是通过数字许可证激活的，可能无法提取到密钥。
+wmic path softwarelicensingservice get OA3xOriginalProductKey
+
+注册表法获取windows10产品密钥
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\BackupProductKeyDefault
+
+计算机本机的详细硬件信息：msinfo32
+cmd--systeminfo
+
+
+
+
