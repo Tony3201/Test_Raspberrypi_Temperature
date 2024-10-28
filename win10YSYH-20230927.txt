@@ -1,0 +1,158 @@
+;关闭 Windows网络连接状态指示器的活动测试
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkConnectivityStatusIndicator]
+"NoActiveProbe"=dword:00000001
+;关闭地图数据的自动下载和更新
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Maps]
+"AllowUntriggeredNetworkTrafficOnSettingsPage"=dword:00000000
+"AutoDownloadAndUpdateMapData"=dword:00000000
+
+;OneDrive
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive]
+"DisableLibrariesDefaultSaveToOneDrive"=dword:00000001
+"DisableMeteredNetworkFileSync"=dword:00000001
+"DisableFileSyncNGSC"=dword:00000001
+
+;关闭广告 ID
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AdvertisingInfo]
+"DisabledByGroupPolicy"=dword:00000001
+
+;要关闭允许网站通过访问我的语言列表来提供本地相关内容
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"HttpAcceptLanguageOptOut"=dword:00000001
+
+;关闭允许 Windows 跟踪应用启动情况以改进‘开始’菜单和搜索结果
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_TrackProgs"=dword:00000000
+
+;关闭打开SmartScreen 以检查 Microsoft Store 应用所使用的 Web 内容
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost]
+"EnableWebContentEvaluation"=dword:00000000
+
+;关闭允许应用在我的其他设备上打开应用，并在此设备上继续体验
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableCdp"=dword:00000000
+
+;位置和传感器--关闭
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
+"DisableLocation"=dword:00000001
+"DisableLocationScripting"=dword:00000001
+"DisableWindowsLocationProvider"=dword:00000001
+"DisableSensors"=dword:00000001
+
+;强制拒绝--允许Windows应用访问位置和设置选择设置框。
+;强制拒绝--Windows 应用与未配对设备进行通信并.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy]
+"LetAppsRunInBackground"=dword:00000002
+"LetAppsSyncWithDevices"=dword:00000002
+
+;禁用--允许用户启用在线语音识别服务
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Speech_OneCore\Settings\OnlineSpeechPrivacy]
+"HasAccepted"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Speech]
+"HasAccepted"=dword:00000000
+
+;禁用--允许自动更新语音数据
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Speech]
+"AllowSpeechModelUpdate"=dword:00000000
+
+;关闭邮件同步
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Messaging]
+"AllowMessageSync"=dword:00000000
+
+;关闭遥测
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+;禁用活动历史记录
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"PublishUserActivities"=dword:00000000
+"EnableActivityFeed"=dword:00000000
+"UploadUserActivities"=dword:00000000
+
+;关闭新闻和兴趣
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Feeds]
+"EnableFeeds"=dword:00000000
+
+;关闭 KMS 客户端联机 AVS 验证
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\CurrentVersion\Software Protection Platform]
+"NoGenTicket"=dword:00000001
+"NoAcquireGT"=dword:00000001
+
+;禁用--允许下载对磁盘失败预测模型的更新
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\StorageHealth]
+"AllowDiskHealthModelUpdates"=dword:00000000
+
+;禁用--同步你的设置
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SettingSync]
+"EnableBackupForWin8Apps"=dword:00000000
+"DisableSettingSyncUserOverride"=dword:00000001
+"DisableSettingSync"=dword:00000002
+
+;关闭消息云同步
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Messaging]
+"CloudServiceSyncEnabled"=dword:00000000
+
+;关闭WLAN 感知
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\config]
+"AutoConnectAllowedOEM"=dword:00000000
+
+;;;Microsoft Defender设置
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet]
+"SubmitSamplesConsent"=dword:00000002
+"SpynetReporting"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Signature Updates]
+"FallbackOrder"="FileShares"
+"DefinitionUpdateFileSharesSources"=-
+;关闭恶意软件报告工具 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MRT]
+"DontReportInfectionInformation"=dword:00000001
+;关闭增强型通知
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Reporting]
+"DisableEnhancedNotifications"=dword:00000001
+
+;;;Microsoft Defender SmartScreen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\SmartScreen]
+"ConfigureAppInstallControlEnabled"=dword:00000001
+"ConfigureAppInstallControl"="Anywhere"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableSmartScreen"=dword:00000000
+
+;关闭云内容
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableWindowsSpotlightFeatures"=dword:00000001
+"DisableWindowsConsumerFeatures"=dword:00000001
+"DisableSoftLanding"=dword:00000001
+
+;禁用 Microsoft Store 中的所有应用。
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore]
+"DisableStoreApps"=dword:00000001
+"AutoDownload"=dword:00000002
+
+;关闭网站应用，以便阻止访问已注册其相关应用的网站的客户，直接启动该应用
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableAppUriHandlers"=dword:00000000
+
+;关闭小组件，小组件是一种可由用户自定义的新闻和源服务
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Widgets]
+"AllowWidgets"=dword:00000000
+
+;;;;Windows 更新
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"ExcludeWUDriversInQualityUpdate"=dword:00000001
+"DisableWUfBSafeguards"=dword:00000001
+"DisableWindowsUpdateAccess"=dword:00000001
+"DoNotConnectToWindowsUpdateInternetLocations"=dword:00000001
+"WUServer"=""
+"WUStatusServer"=""
+"UpdateServiceUrlAlternate"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"UseWUServer"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\LexiconUpdate\loc_0804]
+"HapDownloadEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsStore\WindowsUpdate]
+"AutoDownload"=dword:00000005
