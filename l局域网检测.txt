@@ -1,0 +1,1 @@
+for /L %I in (1,1,254) DO @ping -w 1 -n 1 192.168.0.%I | findstr "TTL="
