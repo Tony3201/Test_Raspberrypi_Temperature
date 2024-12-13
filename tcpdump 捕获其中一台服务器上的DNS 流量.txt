@@ -1,0 +1,7 @@
+tcpdump 捕获其中一台服务器上的DNS 流量，以便更好地了解正在发生的情况并尝试识别任何模式。我们希望确保在其中一个峰值期间捕获流量，因此我们将 tcpdump 
+配置为在一段时间内将数据写入文件。我们将文件分割为 60 秒的收集间隔，以保持较小的文件大小，从而更容易使用它们。 
+
+# Capture all traffic on port 53 (DNS traffic)
+# Write data to files in 60 second intervals for 30 minutes
+# and format the filenames with the current time
+$ tcpdump -n -tt -i any -W 30 -G 60 -w '%FT%T.pcap' port 53
