@@ -1,0 +1,22 @@
+# your terminal emulator to use the Solarized palette.
+
+max-items 13000
+cache-file ~/.newsboat/cache.db
+
+#setup the color 
+color background   default   default
+color listnormal   default   default
+color listfocus    black     yellow
+color info         default   black
+color article      default   default
+color background         default   default
+color listnormal         default   default
+color listnormal_unread  default   default
+color listfocus          black     yellow
+color listfocus_unread   black     yellow
+color info               default   black
+color article            default   default
+
+# highlights
+highlight article "^(Title):.*$" blue default
+
