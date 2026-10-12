@@ -1,0 +1,85 @@
+#https://www.zhihu.com/rss
+#https://v2ex.com/index.xml
+https://www.v2ex.com/feed/tab/tech.xml
+https://www.oschina.net/news/rss
+#https://cn.wsj.com/zh-hans/rss
+https://plink.anyfeeder.com/newscn/whxw
+#https://feedx.net/rss/mrdx.xml
+
+#https://feedx.net/rss/nikkei.xml
+
+
+
+https://plink.anyfeeder.com/weixin/hbrchinese
+
+https://plink.anyfeeder.com/weixin/ckxxwx
+https://plink.anyfeeder.com/weixin/cctvnewscenter
+
+https://plink.anyfeeder.com/weixin/people_rmw
+
+
+
+
+#https://feeds.bbci.co.uk/news/rss.xml
+#http://people.com.cn/rss/politics.xml
+#http://people.com.cn/rss/world.xml
+#https://feedx.net/rss/thepaper.xml
+https://feedx.net/rss/infzm.xml
+https://feedx.net/rss/ifengmil.xml
+#https://www.freebuf.com/feed
+#https://www.4hou.com/feed
+https://www.ithome.com.tw/rss.xml
+https://technews.tw/feed/
+#https://api.anquanke.com/data/v1/rss
+#https://www.aqniu.com/feed
+https://paper.seebug.org/rss/
+https://xz.aliyun.com/feed
+https://www.chinanews.com.cn/rss/scroll-news.xml
+https://www.chinanews.com.cn/rss/world.xml
+https://www.chinanews.com.cn/rss/finance.xml
+https://www.chinanews.com.cn/rss/chinese.xml
+https://www.chinanews.com.cn/rss/life.xml
+https://www.chinanews.com.cn/rss/importnews.xml
+https://www.ifanr.com/feed
+https://sspai.com/feed
+https://www.ithome.com/rss/
+
+#https://www.cbc.ca/webfeed/rss/rss-canada
+#https://www.cbc.ca/webfeed/rss/rss-canada-toronto
+https://cn.nytimes.com/rss/
+#https://news.ycombinator.com/rss
+https://technews101a.blogspot.com/feeds/posts/default
+#https://feedx.net/rss/aljazeera.xml
+#http://rss.cnbeta.com.tw/
+https://www.wired.com/feed/rss
+
+https://feeds.bbci.co.uk/zhongwen/simp/rss.xml  "~BBC中文"
+#https://feeds.bbci.co.uk/zhongwen/trad/rss.xml
+https://www.economist.com/china/rss.xml "~经济学人-中国"
+#https://rsshub.app/wallstreetcn/news/global
+
+#http://www.hackaday.com/rss.xml
+https://www.asahi.com/rss/asahi/newsheadlines.rdf "~朝日新闻"
+https://news.yahoo.co.jp/rss/topics/top-picks.xml "~yahoo日文"
+https://www3.nhk.or.jp/rj/podcast/rss/chinese.xml "~NHK广播中文"
+#https://news.google.com/rss/search?q=when:24h+site:reuters.com&ceid=cn:en&hl=zh-cn&gl=cn
+https://assets.wor.jp/rss/rdf/nikkei/news.rdf "~日经新闻-速报"
+https://assets.wor.jp/rss/rdf/yomiuri/latestnews.rdf "~读卖新闻"
+
+https://www.theguardian.com/world/rss "~卫报-国际新闻"
+https://news.google.com/rss/search?q=when:24h+site:reuters.com&ceid=US:en&hl=en-US&gl=US
+https://asia.nikkei.com/rss/feed/nar
+https://news.ltn.com.tw/rss/all.xml "~自由时报-新闻"
+https://news.ltn.com.tw/rss/world.xml "~自由时报-国际新闻"
+https://feeds.feedburner.com/rsscna/politics
+https://www.scmp.com/rss/4/feed "~南华早报"
+https://news.pts.org.tw/xml/newsfeed.xml
+#https://plink.anyfeeder.com/zaobao/realtime/china "~新加坡早报-中国"
+https://plink.anyfeeder.com/weixin/lifeweek
+#https://plink.anyfeeder.com/zaobao/realtime/world "~新加坡早报-国际"
+
+https://www.aljazeera.com/xml/rss/all.xml "~半岛电视台"
+https://feeds.feedburner.com/TheNewsLens "~关键评论网"
+
+https://www.kawabangga.com/feed "~卡瓦邦嘎-网络调优"
+https://rss.huxiu.com/ "~虎嗅新闻网"
